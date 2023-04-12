@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 Apr 2023, 15:30:23
+    Author     : lobo
+*/
+
+.tab-pane {
+    -fx-tab-min-width: 150px;
+    -fx-tab-max-width: 150px;
+    -fx-tab-min-height: 150px;
+    -fx-tab-max-height: 150px;
+    
+}
+.tab{
+    -fx-background-color: #b9b9b9;
+}
+.tab:selected {
+    -fx-background-color:#959595;
+}
+
+.tab:hover{
+    -fx-background-color: #6a6a6a;
+}
+
+#salud, #poblacion, #academia, #deporte, #home{
+    -fx-background-color: #b9b9b9;
+}
